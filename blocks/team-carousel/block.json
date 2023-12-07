@@ -1,0 +1,16 @@
+{
+    "name": "acf/team-carousel",
+    "title": "Team Carousel",
+    "description": "Carousel showing all team members. To edit/manage content for team members go to the team section in the dashboard left sidebar.",
+    "script": ["jquery", "slick", "team-carousel"],
+    "style": [ "file:./team-carousel.css" ],
+    "category": "design",
+    "icon": "admin-comments",
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "team-carousel.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
